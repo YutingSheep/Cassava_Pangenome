@@ -15,7 +15,7 @@ This repository contains a collection of analysis scripts and tools used in the 
 Pangenome analysis, by integrating genomic information from multiple varieties, comprehensively reveals the genomic diversity of species, identifies core and variable genomes, and provides important evidence for understanding adaptive evolution and phenotypic variation. The scripts and methods in this toolkit have been validated in genomic research of multiple cassava varieties, demonstrating high reliability and practicality.
 
 <div align="center">
-  <img src="cassava_genome_circos.png" alt="Cassava Genome Visualization" width="600"/>
+  <img src="./Picture/cassava_genome_circos.png" alt="Cassava Genome Visualization" width="600"/>
   <p><i>Cassava genome structure visualization: showing repeat density, gene density, and other genomic features</i></p>
 </div>
 
