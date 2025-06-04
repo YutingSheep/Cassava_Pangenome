@@ -1,13 +1,10 @@
-
-
-<a name="english"></a>
 # Cassava Pangenome Analysis Toolkit
 
 <div align="center">
   <img src="cassava_logo.jpg" alt="Cassava Pangenome Project Logo" width="200"/>
   <p>
-    <a href="#中文版">Chinese</a> | 
-    <a href="#english">English</a>
+    <a href="README_CN.md">中文版</a> | 
+    <a href="README.md">English</a>
   </p>
 </div>
 
