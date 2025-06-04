@@ -21,47 +21,10 @@ Pangenome analysis, by integrating genomic information from multiple varieties, 
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
 - [Toolkit Overview](#toolkit-overview)
-- [Contributing](#contributing)
 - [Citation](#citation)
 - [License](#license)
 
-## Installation
-
-This toolkit depends on various bioinformatics software and Python packages. Here are the basic installation steps:
-
-```bash
-# Clone the repository
-git clone https://github.com/username/cassava-pangenome-tools.git
-cd cassava-pangenome-tools
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Check environment configuration
-./check_environment.sh
-```
-
-For module-specific dependencies, please refer to the README files in each module directory. Most modules depend on the following core software:
-
-- BWA/Minimap2: Sequence alignment
-- GATK/FreeBayes: Variant detection
-- Snakemake: Workflow management
-- R (≥4.0): Statistical analysis and visualization
-- Python (≥3.8): Data processing and analysis
-
-## Usage
-
-Each tool module contains detailed usage instructions, parameter explanations, and example data. Before use, ensure that environment variables and dependencies are correctly configured. Here is the basic workflow:
-
-1. Select the appropriate module based on research needs
-2. Prepare input data according to module documentation
-3. Execute analysis scripts, using provided configuration files or adjusting parameters as needed
-4. Interpret and visualize results
-
-For detailed usage instructions, please refer to the README files and example scripts in each module directory.
 
 ## Toolkit Overview
 
@@ -232,25 +195,13 @@ These tools are important for cassava germplasm resource evaluation and conserva
   <p><i>Cassava plant image: showing typical palmate compound leaves and tuberous roots</i></p>
 </div>
 
-## Contributing
-
-We welcome community contributions! If you want to contribute to the project, please follow these steps:
-
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Before contributing, please read our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Citation
 
 If you use this toolkit in your research, please cite:
 
 ```
-Zhang, X., et al. (2025). Comprehensive tools for cassava pangenome analysis. 
-Journal of Plant Genomics, 15(3), 234-245.
+XXX, XXX., et al. (2025). XXX XXX XXX XXX, 15(3), 234-245.
 ```
 
 ## License

@@ -21,47 +21,10 @@
 
 ## 目录
 
-- [安装](#安装)
-- [使用方法](#使用方法)
+
 - [工具集概览](#工具集概览)
-- [贡献指南](#贡献指南)
 - [引用](#引用)
 - [许可证](#许可证)
-
-## 安装
-
-本工具集依赖多种生物信息学软件和Python包。以下是基本安装步骤：
-
-```bash
-# 克隆仓库
-git clone https://github.com/username/cassava-pangenome-tools.git
-cd cassava-pangenome-tools
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 检查环境配置
-./check_environment.sh
-```
-
-对于特定模块的依赖，请参考各模块目录中的README文件。大多数模块依赖以下核心软件：
-
-- BWA/Minimap2：序列比对
-- GATK/FreeBayes：变异检测
-- Snakemake：工作流管理
-- R (≥4.0)：统计分析和可视化
-- Python (≥3.8)：数据处理和分析
-
-## 使用方法
-
-每个工具模块都包含详细的使用说明、参数解释和示例数据。使用前请确保已正确配置环境变量和依赖软件。以下是基本使用流程：
-
-1. 根据研究需求选择相应模块
-2. 参考模块文档准备输入数据
-3. 执行分析脚本，可使用提供的配置文件或根据需要调整参数
-4. 解释和可视化结果
-
-详细使用方法请参阅各模块目录中的README文件和示例脚本。
 
 ## 工具集概览
 
@@ -232,17 +195,6 @@ WGD后的基因保留模式反映了功能约束和进化选择。本模块专�
   <p><i>木薯植物实物图：展示了典型的掌状复叶和块根特征</i></p>
 </div>
 
-## 贡献指南
-
-我们欢迎社区贡献！如果您想为项目做出贡献，请遵循以下步骤：
-
-1. Fork本仓库
-2. 创建您的特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交您的更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 开启一个Pull Request
-
-贡献前请阅读我们的[代码规范](CODE_OF_CONDUCT.md)和[贡献指南](CONTRIBUTING.md)。
 
 ## 引用
 
