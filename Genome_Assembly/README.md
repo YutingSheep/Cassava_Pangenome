@@ -1,11 +1,17 @@
-# Non-AM560 sample
-$hifiasm -t $threads -o TEST1-MS --primary -l3 --h1 ${Hic_1} --h2 ${Hic_2}  $CCS
+## Haplotype-resolved_Assembly
 
-# AM560
-$hifiasm -t $threads -o TEST1-MS --primary -l3 --h1 ${Hic_1} --h2 ${Hic_2} --ul $ONT  $CCS
+### 1.AM560的组装
 
-# 过滤小于10kb的从提高和质体序列
-python XXX_filter.py draft.contig.fa > contig.fa
+`hifiasm -t $threads -o TEST1-MS --primary -l3 --h1 ${Hic_1} --h2 ${Hic_2} --ul $ONT $CCS`
+
+### 2.其他木薯基因组组装
+
+`hifiasm -t $threads -o TEST1-MS --primary -l3 --h1 ${Hic_1} --h2 ${Hic_2}  $CCS`
+
+### 3.contig过滤
+Since the initial contig assembly contained plastid genome sequences, we downloaded previously published cassava mitochondrial (MK176513.1) and chloroplast (EU117376.1) genome sequences from NCBI (GCF_001659605.2) and annotated our assembled contigs based on sequence alignment using Minimap2. Contigs predominantly composed of plastid DNA were excluded. Satellite repeats were mainly identified using Jellyfish (v2.3.1) (https://github.com/gmarcais/Jellyfish) with 41-bp K-mers. GC content analysis was also calculated in identifying satellite contigs, as well as contigs with potential assembly algorithm bias or sequencing bias. After these filtering steps, the remaining contigs were used for downstream Hi-C scaffolding.
+
+`python XXX_filter.py draft.contig.fa > contig.fa`
 
 #两个hap单独挂载排序
 Hic_scaffold_script1_hap1.sh
