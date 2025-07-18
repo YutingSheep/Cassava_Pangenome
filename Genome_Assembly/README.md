@@ -1,6 +1,6 @@
 ## Haplotype-resolved_Assembly
 
-![image-20250718201317212](/Users/yutingyang/Library/Application Support/typora-user-images/image-20250718201317212.png)
+![Genome_assemblu](./Genome_aseembly_pipeline.png)
 
 ### 1.参考基因组AM560的组装
 
