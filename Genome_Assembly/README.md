@@ -1,6 +1,6 @@
-## Haplotype-resolved_Assembly
+# Haplotype-resolved_Assembly
 
-![Genome_assemblu](./Genome_aseembly_pipeline.png)
+<img src="./Genome_aseembly_pipeline.png" alt="Genome_assemblu" style="zoom:50%;" />
 
 ### 1.参考基因组AM560的组装
 
